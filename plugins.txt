@@ -1,0 +1,9 @@
+git
+github
+pipeline
+docker-workflow
+kubernetes
+credentials-binding
+matrix-auth
+role-strategy
+blueocean
