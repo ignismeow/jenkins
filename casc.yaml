@@ -1,0 +1,13 @@
+jenkins:
+  systemMessage: "Managed by DevSecOps Agent"
+  numExecutors: 4
+  securityRealm:
+    local:
+      allowsSignup: false
+  authorizationStrategy:
+    loggedInUsersCanDoAnything:
+      allowAnonymousRead: false
+
+unclassified:
+  githubPluginConfig:
+    hookUrl: "https://jenkins.yourdomain.com/github-webhook/"
